@@ -1,0 +1,56 @@
+*{
+margin: 0;
+box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.heading
+{
+    height: 20%;
+    background-color: cadetblue;
+    color:white;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,;
+}
+.MainBody
+{
+height:75%;
+background-color: aquamarine;
+font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+padding-top: 5%;
+padding-left: 27%;
+}
+.footer{
+    height: 5%;
+    background-color: turquoise;
+}
+.box {
+    background-color: bisque;
+    height: 70%;
+    width: 60%;
+    border: 1px solid brown;
+    border-radius: 12px;
+    box-shadow: 0 1px 30px gray;
+}
+.content
+{
+    padding-top: 5%;
+
+}
+.button
+{
+display: flex;
+height: 30px;
+width: 70px;
+text-align: center;
+margin-left: 41%;
+margin-top: 10%;
+
+}
+.hidden {
+    display: none;
+}
